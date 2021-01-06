@@ -88,7 +88,18 @@ button {
     font-size: 18px;
     border-radius: 5px;
     margin-top: 15px;
+    outline: none;
     border: none;
+}
+
+button:hover {
+    background-color: #4dfffc;
+}
+
+button:active {
+
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 ul {
